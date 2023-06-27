@@ -47,6 +47,7 @@ public class Customer {
                 memberType = "BIASA";
             default:
                 System.out.println("Tolong menginputkan jenis layanan yang ingin diinputkan. Contoh: 1");
+                setMember();
         }
     }
     
